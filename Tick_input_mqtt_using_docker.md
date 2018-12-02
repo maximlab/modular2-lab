@@ -115,7 +115,7 @@ Docker监视面板
 ![Docker监视面板](./screenshots/chronograf_using_docker_4.png)
 MQTT输入数据
 ![Docker监视面板](./screenshots/chronograf_using_docker_5.png)
-MQTT数据源modular-2采集数据。更多配置请参考[https://hub.docker.com/_/chronograf/](https://hub.docker.com/_/chronograf/)
+MQTT数据源为modular-2采集数据。更多配置请参考[https://hub.docker.com/_/chronograf/](https://hub.docker.com/_/chronograf/)
 ### 安装Kapacitor镜像
 ```
 $ sudo docker run -d -p 9092:9092 \

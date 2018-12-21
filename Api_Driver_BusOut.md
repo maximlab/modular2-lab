@@ -1,6 +1,7 @@
 ## BusOut
-![BusOut 类层次结构](https://os.mbed.com/docs/v5.9/mbed-os-api-doxy/classmbed_1_1_bus_out.png)
-BusOut 类层次结构
+<div align=center>![BusOut 类层次结构](https://os.mbed.com/docs/v5.9/mbed-os-api-doxy/classmbed_1_1_bus_out.png)
+
+BusOut 类层次结构</div>
 
 使用 BusOut 接口创建许多可以写为一个值的[DigitalOut](https://os.mbed.com/docs/v5.9/reference/digitalout.html) 引脚。此 API 对于一次写入多个输出非常有用。您可以使用此 API 更快地编写更清晰的代码。
 

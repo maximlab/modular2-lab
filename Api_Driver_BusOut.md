@@ -35,7 +35,7 @@ BusOut 类参考
 |PlatformMutex      	|_mutex|
 ## BusOut Hello World!
 
-[main.cpp](https://os.mbed.com/teams/mbed_example/code/BusOut_HelloWorld/file/6337070122f8/main.cpp)                                                                                                                                             [导入到 Mbed IDE](https://os.mbed.com/compiler/#import:https://os.mbed.com/teams/mbed_example/code/BusOut_HelloWorld)
+[main.cpp](https://os.mbed.com/teams/mbed_example/code/BusOut_HelloWorld/file/6337070122f8/main.cpp)                                                                                                                                             <div align=right>[导入到 Mbed IDE](https://os.mbed.com/compiler/#import:https://os.mbed.com/teams/mbed_example/code/BusOut_HelloWorld)</div>
 ```
 /* mbed Example Program
  * Copyright (c) 2006-2014 ARM Limited

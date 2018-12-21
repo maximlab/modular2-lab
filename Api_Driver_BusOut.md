@@ -1,5 +1,5 @@
 ## BusOut
-<div align=center>![BusOut 类层次结构](https://os.mbed.com/docs/v5.9/mbed-os-api-doxy/classmbed_1_1_bus_out.png)
+<div align=center><img title="BusOut 类层次结构" src="https://os.mbed.com/docs/v5.9/mbed-os-api-doxy/classmbed_1_1_bus_out.png">
 
 BusOut 类层次结构</div>
 

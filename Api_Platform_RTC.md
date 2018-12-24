@@ -8,11 +8,11 @@ RTC 类 API 是线程安全的。
 
 如果连接了二次电源（电池），RTC 即使在断电状态下也可以跟踪时间。
 
-RTC 函数参考
+## RTC 函数参考
 
 [mbed_rtc_time.h](http://os.mbed.com/docs/v5.9/mbed-os-api-doxy/mbed__rtc__time_8h_source.html)
 
-RTC Time 示例
+## RTC Time 示例
 
 [main.cpp](https://os.mbed.com/teams/mbed_example/code/time_HelloWorld/file/8593c9813840/main.cpp)   
 ```

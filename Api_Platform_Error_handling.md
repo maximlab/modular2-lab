@@ -136,7 +136,7 @@ Mbed OS 应用程序和系统开发人员可能需要定义特定于其应用程
 
 ## 错误处理 API 示例
 
-### 使用 error() 函数
+#### 使用 error() 函数
 
 下面的代码使用错误函数来打印致命错误，指示内存不足的情况。
 ```
@@ -148,7 +148,7 @@ void *operator new(std::size_t count) {
     return buffer;
 }
 ```
-### 将 MBED_ERROR() 宏与模块信息一起使用
+#### 将 MBED_ERROR() 宏与模块信息一起使用
 
 下面的代码使用 MBED_ERROR 宏来打印致命错误，指示模块名称指定为 MODULE_APPLICATION 的无效参数：
 ```
@@ -160,7 +160,7 @@ void receive_data(unsigned char *buffer) {
     
 }
 ```
-### 将 MBED_WARNING() 宏与模块信息一起使用并返回 Mbed 错误状态
+#### 将 MBED_WARNING() 宏与模块信息一起使用并返回 Mbed 错误状态
 
 下面的代码使用 MBED_WARNING 宏来报告无效的配置尝试，模块名称指定为 MBED_MODULE_PLATFORM：
 ```
@@ -176,7 +176,7 @@ mbed_error_status_t configure(int config_value) {
     return MBED_SUCCESS;
 }
 ```
-### 使用 MBED_ERROR1() 宏
+#### 使用 MBED_ERROR1() 宏
 
 MBED_ERROR1 宏类似于 MBED_ERROR 宏，但它可以采用额外的特定于上下文的参数。错误处理系统还将此值记录为上下文捕获的一部分。下面的代码使用 MBED_ERROR1 宏来打印致命错误，指示内存不足的情况，并将特定于上下文的值作为 MBED_ERROR1 宏的最后一个参数：
 ```
@@ -188,7 +188,7 @@ void receive_data(unsigned char *buffer) {
     
 }
 ```
-### 使用 MBED_WARNING1() 宏
+#### 使用 MBED_WARNING1() 宏
 
 MBED_WARNING1 宏类似于 MBED_WARNING 宏，但它可以采用其他特定于上下文的参数。错误处理系统还将此值记录为上下文捕获的一部分。下面的代码使用 MBED_WARNING1 宏来报告具有上下文特定值的警告作为 MBED_WARNING1 宏的最后一个参数：
 ```
@@ -204,7 +204,7 @@ mbed_error_status_t configure(int config_value) {
     return MBED_SUCCESS;
 }
 ```
-### 使用没有模块信息的 MBED_WARNING() 宏
+#### 使用没有模块信息的 MBED_WARNING() 宏
 
 下面的代码使用 MBED_WARNING 宏来报告无模块名称的无效配置尝试：
 ```
@@ -220,7 +220,7 @@ mbed_error_status_t configure(int config_value) {
     return MBED_SUCCESS;
 }
 ```
-### 使用 mbed_get_first_error() 和 mbed_get_first_error_info() 函数检索系统中记录的第一个错误或第一个警告
+#### 使用 mbed_get_first_error() 和 mbed_get_first_error_info() 函数检索系统中记录的第一个错误或第一个警告
 
 下面的代码使用 mbed_get_first_error() 和 mbed_get_first_error_info() 函数来检索使用 MBED_WARNING()/MBED_ERROR() 调用记录在系统中的第一个错误或第一个警告：
 ```
@@ -233,7 +233,7 @@ void get_first_error_info() {
     mbed_error_status_t first_error = mbed_get_first_error_info(&first_error_ctx);
 }
 ```
-### 使用 mbed_get_last_error() 和 mbed_get_last_error_info() 函数检索系统中记录的最后一条错误或上一条警告
+#### 使用 mbed_get_last_error() 和 mbed_get_last_error_info() 函数检索系统中记录的最后一条错误或上一条警告
 
 使用函数 mbed_get_last_error() 和 mbed_get_last_error_info() 来检索使用 MBED_WARNING()/MBED_ERROR() 调用记录在系统中的最后一个错误或上一个警告。请注意，这些调用类似于 mbed_get_first_error() 和 mbed_get_first_error_info() 调用，除了它们在这种情况下检索上一个错误或最后一个警告：
 ```
@@ -246,7 +246,7 @@ void get_last_error_info() {
     mbed_error_status_t last_error = mbed_get_last_error_info(&last_error_ctx);
 }
 ```
-### 使用 mbed_get_error_hist_info() 和 mbed_get_error_hist_count() 从错误历史记录中检索错误或警告信息
+#### 使用 mbed_get_error_hist_info() 和 mbed_get_error_hist_count() 从错误历史记录中检索错误或警告信息
 
 您可以使用函数 mbed_get_error_hist_info() 从错误历史记录中检索错误或警告信息：
 ```
@@ -265,7 +265,7 @@ void get_error_info_from_hist() {
     }
 }
 ```
-### 使用 mbed_clear_all_errors() 清除错误历史记录
+#### 使用 mbed_clear_all_errors() 清除错误历史记录
 
 您可以使用函数 mbed_clear_all_errors() 清除错误历史记录中所有当前记录的错误。如果您已经备份了所有当前记录的错误（例如，备份到文件系统或云）并希望捕获新错误，则可以使用此方法：
 ```

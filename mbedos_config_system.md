@@ -145,8 +145,8 @@ cellular.use-apn-lookup = 0 (macro name: "MBED_CONF_CELLULAR_USE_APN_LOOKUP")
 
 配置系统在每个参数的名称后附加前缀，因此库中具有相同名称的参数不会与目标或其他库中的同名参数冲突。前缀是：
 
-|位置	|字首|
-|-|:-|
+|位置|字首|
+|:-|:-|
 |目标	|target.|
 |任何库	|库的名称，在 mbed_lib.json 的名称部分中找到，后跟一个点（.）|
 |应用程序	|app.|
@@ -154,8 +154,8 @@ cellular.use-apn-lookup = 0 (macro name: "MBED_CONF_CELLULAR_USE_APN_LOOKUP")
 
 mbed_lib.json 是一个 JSON 格式的文档，包含一个根 JSON 对象。此对象中的键是部分。请参阅以下允许的部分及其含义：
 
-|部件	|必要	|含义|
-|-|:-:|-|
+|部件|必要|含义|
+|:-|:-:|-|
 |name	|是	|库的名称。必须是独特的。可能不是 app 或 target。|
 |macros	|否	|要在 mbed_config.h 中定义的宏列表。|
 |config	|否	|定义用于此库的配置参数。|
@@ -214,12 +214,13 @@ mbed_lib.json 覆盖未定义的配置参数是错误的。
 
 mbed_app.json 可以出现在应用程序的根目录中，也可以指定为 mbed 编译和 mbed 导出的 --app-config 参数的参数。与库配置不同，配置系统在 mbed 编译或 mbed 导出期间仅解释一个 mbed_app.json。与 mbed_lib.json 一样，mbed_app.json 是一个包含根 JSON 对象的 JSON 格式文档。此对象中的键是部分。允许的部分及其含义如下：
 
-|部件	|必要	|含义|
-|-|:-:|-|
+|部件|必要|含义|
+|:-|:-:|-|
 |artifact_name	|否	|要生成的可执行文件的名称。默认为包含目录的名称。|
 |macros	|否	|要在 mbed_config.h 中定义的宏列表。|
 |config	|否	|定义用于此库的配置参数。|
 |target_overrides	|否	|覆盖目标，库和应用程序配置参数。|
+
 应用程序可以自由地覆盖它所依赖的任何库的配置，以及目标中的配置数据，因此它可以完全控制整个构建的配置。例如，依赖于上面的 mylib 的应用程序中的 mbed_app.json 可能如下所示：
 ```
 {

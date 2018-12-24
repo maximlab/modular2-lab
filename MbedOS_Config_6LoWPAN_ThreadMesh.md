@@ -46,6 +46,7 @@ Mbed OS 中有一个支持网格的栈称为 Nanostack。
 |thread_border_router	|具有边界路由器功能的线程路由器	|212 kB|
 |thread_end_device	|线程主机没有路由功能。	|166 kB|
 |thread_router	|线程主机具有路由功能。	|199 kB|
+
 **注意**: 使用 GNU Arm Embedded Toolchain 4.9 版估算了二进制大小。它们根据工具链或存储库的状态而不同。只有在链接最终应用程序时才能估算最终大小。指定的大小仅为您提供了不同选项之间预期的更改类型的指导。
 
 如果要优化闪存使用率，则需要配置 Nanostack。要选择的配置主要取决于首选用例。

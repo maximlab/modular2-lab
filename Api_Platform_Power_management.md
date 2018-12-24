@@ -119,7 +119,7 @@ void main()
 
 [空闲挂钩函数](http://os.mbed.com/docs/v5.9/mbed-os-api-doxy/group__rtos___idle.html)
 
-### 示例
+## 示例
 
 [main.cpp](https://os.mbed.com/teams/mbed_example/code/SleepManager_Example_1/file/e85412b4147e/main.cpp)                                                                                              
 ```

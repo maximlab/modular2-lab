@@ -1,9 +1,9 @@
 LowPowerTimeout
-<div align=center><img src="https://os.mbed.com/docs/v5.9/mbed-os-api-doxy/classmbed_1_1_interrupt_in.png">
+<div align=center><img src="https://os.mbed.com/docs/v5.9/mbed-os-api-doxy/classmbed_1_1_low_power_timeout.png">
 
 LowPowerTimeout 类层次结构</div>                
 
-使用 LowPowerTimeout 接口设置中断以在指定的延迟后调用函数。您可以创建任意数量的 LowPowerTimeout 对象。这允许同时有多个未完成的中断。有关电源管理的更多信息，请参阅我们的电源管理 API。
+使用 LowPowerTimeout 接口设置中断以在指定的延迟后调用函数。您可以创建任意数量的 LowPowerTimeout 对象。这允许同时有多个未完成的中断。有关电源管理的更多信息，请参阅我们的[电源管理 API](https://os.mbed.com/docs/v5.9/reference/power-management.html)。
 
 **注意**
 

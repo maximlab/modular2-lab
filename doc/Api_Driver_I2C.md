@@ -1,7 +1,7 @@
 ## I2C
 <div align=center><img src="https://os.mbed.com/docs/v5.9/mbed-os-api-doxy/classmbed_1_1_i2_c.png">
 
-I2C 类层次结构 类层次结构</div>                                           
+I2C 类层次结构</div>                                           
 
 I2C 接口提供 I2C 主控功能。I2C 是双线串行协议，允许 I2C 主设备与 I2C 从设备交换数据。您可以使用它与 I2C 设备进行通信，例如串行存储器，传感器和其他模块或集成电路。
 

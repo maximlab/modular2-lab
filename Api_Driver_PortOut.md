@@ -60,4 +60,4 @@ int main() {
 }
 ```
 相关内容
-BusOut API 参考。
+[BusOut](https://os.mbed.com/docs/v5.9/reference/busout.html) API 参考。

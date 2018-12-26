@@ -130,7 +130,7 @@ LoRaWANInterface 上的所有操作都返回一个错误代码 lorawan_status_t�
 以下是错误代码及其说明的列表。
 
 |错误代码	|值	|描述|
-|-|:-:|-|
+|:-|:-:|:-|
 |LORAWAN_STATUS_OK	|0	|服务成功完成|
 |LORAWAN_STATUS_BUSY	|-1000	|栈忙|
 |LORAWAN_STATUS_WOULD_BLOCK	|-1001	|栈目前无法发送或无法读取|
@@ -153,6 +153,7 @@ LoRaWANInterface 上的所有操作都返回一个错误代码 lorawan_status_t�
 |LORAWAN_STATUS_NO_CHANNEL_FOUND	|-1021	|目前尚未启用任何频道|
 |LORAWAN_STATUS_NO_FREE_CHANNEL_FOUND	|-1022	|标记使用的所有频道，此刻找不到免费频道|
 |LORAWAN_STATUS_METADATA_NOT_AVAILABLE	|-1023	|元数据陈旧，无法提供，因为它不相关|
+
 您可以在下面找到 'LoRaWANInterface' 和 'LoRaRadio' 类的 API 文档：
 
 + [LoRaWANInterface API 文档](https://os.mbed.com/docs/v5.9/reference/lorawan.html): 为 LoRaWAN 网络栈提供 API 的类。

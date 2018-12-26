@@ -130,7 +130,7 @@ LoRaWANInterface 上的所有操作都返回一个错误代码 lorawan_status_t�
 以下是错误代码及其说明的列表。
 
 |错误代码	|值	|描述|
-|:-|:-:|:-|
+|-|:-:|-|
 |LORAWAN_STATUS_OK	|0	|服务成功完成|
 |LORAWAN_STATUS_BUSY	|-1000	|栈忙|
 |LORAWAN_STATUS_WOULD_BLOCK	|-1001	|栈目前无法发送或无法读取|

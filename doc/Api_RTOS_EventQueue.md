@@ -1055,6 +1055,7 @@ Mbed OS 提供了两个软件可以使用的共享队列。这可以避免创建
 
 1. 在中断上下文中，当在 SW2（rise_handler）上检测到上升沿时。
 2. 在 SW2（fall_handler）上检测到下降沿时，在事件循环的线程函数的上下文中。您可以使用 fall_handler 函数作为 queue.event() 的参数来指定 fall_handler 在用户上下文中运行而不是在中断上下文中运行。
+
 [main.cpp](https://os.mbed.com/teams/mbed_example/code/events_ex_1/file/6ae734681f16/main.cpp)       
 ```
 #include "mbed.h"

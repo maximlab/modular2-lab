@@ -1,8 +1,7 @@
 ## Semaphore
 <div align=center><img src="https://os.mbed.com/docs/v5.9/mbed-os-api-doxy/classrtos_1_1_semaphore.png">
 
-Semaphore 类层次结构</div>                                                                          
-
+Semaphore 类层次结构</div>                                                           
 信号量管理对特定类型的共享资源池的线程访问。
 <div align=center><img src="https://s3-us-west-2.amazonaws.com/mbed-os-docs-images/Semaphore.png"></div>
 

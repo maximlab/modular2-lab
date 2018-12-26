@@ -5,6 +5,7 @@ Wi-FiInterface 类层次结构</div>
 WifiInterface 提供了一个简单的 C++ API，用于通过 Wi-Fi 设备连接到互联网。
 
 Wi-Fi 类参考
+
 [WiFiInterface 类参考](http://os.mbed.com/docs/v5.9/mbed-os-api-doxy/class_wi_fi_interface.html)
 <table><tbody><tr><td colspan="2">公共成员函数</td>
 		</tr><tr><td style="vertical-align:top;">virtual <a href="http://os.mbed.com/docs/v5.9/mbed-os-api-doxy/group__netsocket.html#ga67a8f07758d2ee2a1809293fa52bdf14" rel="nofollow" target="_blank">nsapi_error_t</a>&nbsp;</td>

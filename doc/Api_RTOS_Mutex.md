@@ -2,7 +2,6 @@
 <div align=center><img src="https://os.mbed.com/docs/v5.9/mbed-os-api-doxy/classrtos_1_1_mutex.png">
 
 Mutex 类层次结构</div>                                                                          
-
 Mutex 用于同步线程的执行，例如，以保护对共享资源的访问。
 
 **注意**: 无法从中断服务例程（ISR）调用 Mutex 方法。在当前版本的 Mbed OS 中，如果您尝试在 ISR 中使用互斥锁，则不会发生任何事情；无论锁实际上是否空闲，尝试锁定互斥锁都会立即成功。换句话说，如果在 ISR 中获得互斥锁，则可以破坏线程安全机制并将竞争条件引入其他安全的代码段。未来版本的 Mbed OS 将提供警告并最终防止这种情况发生。

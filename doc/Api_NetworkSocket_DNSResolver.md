@@ -37,7 +37,7 @@ DNS 解析器具有主机名和 IP 地址的缓存。如果从缓存中找到主
 
 从线程上下文调用回调。如果回调执行时间超过 10 毫秒，则可能会阻止底层线程处理。由于堆栈大小限制，不要调用网络操作; 回调不应执行昂贵的操作，例如套接字 recv / send 调用或阻塞操作。
 
-## DNS resolver 类参考
+## DNS解析器 类参考
 [DNS 类参考](http://os.mbed.com/docs/v5.9/mbed-os-api-doxy/class_d_n_s.html)
 
 <table><tbody><tr><td colspan="2">公共类型</td>

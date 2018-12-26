@@ -3,7 +3,7 @@ LoRaRadio 是一个纯虚类，它定义了 LoRa 无线电驱动程序的 API。
 
 该类的实现被传递给 Arm Mbed LoRaWAN 栈。有关更多信息，请参阅现有的 Mbed OS 支持的驱动程序。
 
-LoRaRadio 类参考
+## LoRaRadio 类参考
 
 [LoRaRadio 类参考](http://os.mbed.com/docs/v5.9/mbed-os-api-doxy/class_lo_ra_radio.html)
 

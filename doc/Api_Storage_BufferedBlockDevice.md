@@ -75,8 +75,7 @@ BufferedBlockDevice 类是块设备 adpator，其目的是将底层块设备的�
 ## BufferedBlockDevice 示例
 这个 BufferedBlockDevice 示例采用 HeapBlockDevice，其读取大小为 256 字节，程序大小为 512 字节，并显示了如何使用 BufferedBlockDevice 读取或编程具有更小读取/程序大小的块设备。
 ```
- 
-    HeapBlockDevice heap_bd(1024, 256, 512, 512);
+     HeapBlockDevice heap_bd(1024, 256, 512, 512);
     BufferedBlockDevice buf_bd(&heap_bd);
  
     // This initializes the buffered block device (as well as the underlying heap block device)

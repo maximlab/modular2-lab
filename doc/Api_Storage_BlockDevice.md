@@ -24,7 +24,7 @@ BlockDevice API 提供了一个用于访问基于块的存储的接口。您可�
 
 <div align=center><img src="https://s3-us-west-2.amazonaws.com/mbed-os-docs-images/blockdevice_block_size.png"></div>
 
-删除块
+### 删除块
 
 擦除块的状态未定义。在对块进行编程之前，不会确定存储在块上的数据。这允许对不同类型的存储提供最广泛的支持。
 

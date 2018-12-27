@@ -58,8 +58,8 @@ BLE& mydevicename = BLE::Instance();
 			<td style="vertical-align:bottom;"><a href="http://os.mbed.com/docs/v5.9/mbed-os-api-doxy/class_b_l_e.html#a2484cf6aa39b0ac663bf0ecb13de996e" rel="nofollow" target="_blank">InstanceID_t</a></td>
 		</tr><tr><td style="vertical-align:top;">typedef <a href="http://os.mbed.com/docs/v5.9/mbed-os-api-doxy/class_function_pointer_with_context.html" rel="nofollow" target="_blank">FunctionPointerWithContext</a>&lt; <a href="http://os.mbed.com/docs/v5.9/mbed-os-api-doxy/struct_b_l_e_1_1_on_events_to_process_callback_context.html" rel="nofollow" target="_blank">OnEventsToProcessCallbackContext</a> * &gt;&nbsp;</td>
 			<td style="vertical-align:bottom;"><a href="http://os.mbed.com/docs/v5.9/mbed-os-api-doxy/class_b_l_e.html#a4b14879c5237c587b37717278834c987" rel="nofollow" target="_blank">OnEventsToProcessCallback_t</a></td>
-		</tr><tr><td style="vertical-align:top;">typedef void(*&nbsp;</td>
-			<td style="vertical-align:bottom;"><a href="http://os.mbed.com/docs/v5.9/mbed-os-api-doxy/class_b_l_e.html#a42283fcd0e9ba5958ee26b7403909d6b" rel="nofollow" target="_blank">InitializationCompleteCallback_t</a>) (<a href="http://os.mbed.com/docs/v5.9/mbed-os-api-doxy/struct_b_l_e_1_1_initialization_complete_callback_context.html" rel="nofollow" target="_blank">InitializationCompleteCallbackContext</a> *context)</td>
+		</tr><tr><td style="vertical-align:top;">typedef void(*&nbsp;<a href="http://os.mbed.com/docs/v5.9/mbed-os-api-doxy/class_b_l_e.html#a42283fcd0e9ba5958ee26b7403909d6b" rel="nofollow" target="_blank">InitializationCompleteCallback_t</a>)</td>
+			<td style="vertical-align:bottom;"> (<a href="http://os.mbed.com/docs/v5.9/mbed-os-api-doxy/struct_b_l_e_1_1_initialization_complete_callback_context.html" rel="nofollow" target="_blank">InitializationCompleteCallbackContext</a> *context)</td>
 		</tr></tbody></table>
 <table><tbody><tr><td colspan="2">公共成员函数</td>
 		</tr><tr><td style="vertical-align:top;"><a href="http://os.mbed.com/docs/v5.9/mbed-os-api-doxy/class_b_l_e.html#a2484cf6aa39b0ac663bf0ecb13de996e" rel="nofollow" target="_blank">InstanceID_t</a>&nbsp;</td>
